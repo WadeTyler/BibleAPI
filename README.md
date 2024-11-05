@@ -15,5 +15,6 @@ This Route returns all books in the bible. The Data Strucutre returned is as fol
       "abbrev": string,
       "bookName": string
     }
-  ]```
+  ]
+```
 
