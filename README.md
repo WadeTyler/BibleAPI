@@ -3,8 +3,7 @@ This is an Open Source public Bible API project for use by Developers to use in 
 All routes return data in JSON format.
 
 ## Routes
-
-##### Books
+#### Books
 
 > /api/bible or /api/bible/books
 
@@ -19,7 +18,7 @@ This Route returns all books in the bible. The Data Structure returned is as fol
   ]
 ```
 
-##### Chapters
+#### Chapters
 
 > /api/bible/{bookName or bookid}
 
@@ -34,7 +33,7 @@ This route returns all chapters in the specified book. The parameter provided ca
 ]
 ```
 
-##### Verses
+#### Verses
 
 > /api/bible/{bookName or bookid}/{chapterNum}
 
@@ -46,11 +45,11 @@ This route returns all verses in the specified chapter, in the specified book. R
         "chapterid": number,
         "verseNum": number,
         "text": string
-    }
+    },
 ]
 ```
 
-##### Specific Verse
+#### Specific Verse
 
 > /api/bible/{bookName or bookid}/{chapterNum}/{verseNum}
 
