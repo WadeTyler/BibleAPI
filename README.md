@@ -5,13 +5,15 @@ All routes return data in JSON format.
 ## Routes
 
 #### Books
-/api/bible or /api/bible/books
+
+> /api/bible or /api/bible/books
+
 This Route returns all books in the bible. The Data Strucutre returned is as follows:
-> [  
->   {  
->     "bookid": number,  
->     "abbrev": string,  
->     "bookName": string  
->   }  
-> ]  
+``[
+    {
+      "bookid": number,
+      "abbrev": string,
+      "bookName": string
+    }
+  ]``
 
